@@ -1,6 +1,6 @@
 # Citrix Workspace Auto Login
 
-This is a Python automation project that uses Selenium to automatically log into Citrix Workspace.
+This Python automation project uses Selenium to log into Citrix Workspace automatically.
 
 ## Requirements
 
@@ -22,8 +22,9 @@ This is a Python automation project that uses Selenium to automatically log into
 
 ## Configuration
 
-1. **Modify config.py**
-    Fill your username, password, login_url, download_dir ex. (C:\\Users\\Username\\Downloads)
+**Modify config.py**
+
+    Fill your username, password, login_url, download_dir ex. `(C:\\Users\\Username\\Downloads)`
 
 ## Usage
 
@@ -33,7 +34,8 @@ This is a Python automation project that uses Selenium to automatically log into
 
 ## Additional feature
 
-**Recommended : Compile and generate a .exe**
+**Recommended: Compile and generate a .exe**
+
 After a successful compilation, it's recommended to generate a .exe file to avoid running the script multiple times.
 
     ```sh
@@ -41,7 +43,7 @@ After a successful compilation, it's recommended to generate a .exe file to avoi
     pyinstaller --onefile startup.py
 
     **Run the exe file**
-    Navigate to /dist folder and use startup.exe for auto login.
+    Navigate to the /dist folder and use startup.exe for auto login.
 
 ## Contributing
 
@@ -55,11 +57,11 @@ After a successful compilation, it's recommended to generate a .exe file to avoi
 Nikhil Kumar Srivastava - devwork8nikhil@gmail.com.
 
 ## License
-Distributed under the `BSD 2-Clause License` License. See LICENSE for more information.
+It is distributed under the `BSD 2-Clause License` License. See LICENSE for more information.
 
 That should cover the basics. Feel free to customize it further based on your specific requirements.
 Raise an issue with details if you run into
-Don't forget to star this repo if it helped you.
+Don't forget to star ⭐ this repo if it helps you.
 
 Happy coding! 🚀
 
