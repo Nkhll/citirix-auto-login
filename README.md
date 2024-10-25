@@ -11,26 +11,26 @@ This Python automation project uses Selenium to log into Citrix Workspace automa
 ## Installation
 
 1. **Clone the repository**
-    ```sh
-    git clone https://github.com/Nkhll/citirix-auto-login.git
+```sh
+git clone https://github.com/Nkhll/citirix-auto-login.git
 
-   cd citrix-auto-login
+cd citrix-auto-login
 
 2. **Install Selenium**
-    ```sh
-    pip install selenium
+```sh
+pip install selenium
 
 ## Configuration
 
 **Modify config.py**
 
-    Fill your username, password, login_url, download_dir ex. (C:\\Users\\Username\\Downloads)
+Fill your username, password, login_url, download_dir ex. (C:\\Users\\Username\\Downloads)
 
 ## Usage
 
-1. **Run the startup script**
-    ```sh
-    python startup.py
+**Run the startup script**
+```sh
+python startup.py
 
 ## Additional feature
 
@@ -38,14 +38,14 @@ This Python automation project uses Selenium to log into Citrix Workspace automa
 
 After a successful compilation, it's recommended to generate a .exe file to avoid running the script multiple times.
 
-    ```
-    pip install pyinstaller
-    pyinstaller --onefile startup.py
+```
+pip install pyinstaller
+pyinstaller --onefile startup.py
 
 
 **Run the exe file**
 
-    Navigate to the /dist folder and use startup.exe for auto login.
+Navigate to the /dist folder and use startup.exe for auto login.
 
 ## Contributing
 
@@ -55,11 +55,12 @@ After a successful compilation, it's recommended to generate a .exe file to avoi
 4. Push to the branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
-## Contact
-Nikhil Kumar Srivastava - devwork8nikhil@gmail.com.
 
 ## License
 It is distributed under the `BSD 2-Clause License` License. See LICENSE for more information.
+
+## Contact
+Nikhil Kumar Srivastava - devwork8nikhil@gmail.com.
 
 That should cover the basics. Feel free to customize it further based on your specific requirements.
 Raise an issue with details if you run into
