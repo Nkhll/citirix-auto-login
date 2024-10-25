@@ -26,7 +26,7 @@ pip install selenium
 
 **Modify config.py**
 
-Fill your username, password, login_url, download_dir ex. `(C:\\Users\\Username\\Downloads)`
+Fill your `username`, `password`, `login_url`, `download_dir` ex. `(C:\\Users\\Username\\Downloads)`
 
 ## Usage
 
