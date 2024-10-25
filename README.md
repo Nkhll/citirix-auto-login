@@ -6,6 +6,7 @@ This is a Python automation project that uses Selenium to automatically log into
 
 - Python 3.x
 - Selenium
+- pyinstaller
 
 ## Installation
 
@@ -19,27 +20,45 @@ This is a Python automation project that uses Selenium to automatically log into
     ```sh
     pip install selenium
 
-3. **Modify config.py**
+## Configuration
+
+1. **Modify config.py**
     Fill your username, password, login_url, download_dir ex. (C:\\Users\\Username\\Downloads)
 
-4. **Run the startup script**
+## Usage
+
+1. **Run the startup script**
     ```sh
     python startup.py
 
-5. **Recommended : Compile and generate a .exe**
-    After a successful compilation, it's recommended to generate a .exe file to avoid running the script multiple times.
+## Additional feature
+
+**Recommended : Compile and generate a .exe**
+After a successful compilation, it's recommended to generate a .exe file to avoid running the script multiple times.
 
     ```sh
     pip install pyinstaller
     pyinstaller --onefile startup.py
 
-6. **Run the exe file**
+    **Run the exe file**
     Navigate to /dist folder and use startup.exe for auto login.
 
+## Contributing
 
+1. Fork the Project
+2. Create a branch for your feature (git checkout -b feature/AmazingFeature)
+3. Commit your changes (git commit -m 'Add some AmazingFeature')
+4. Push to the branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
+## Contact
+Nikhil Kumar Srivastava - devwork8nikhil@gmail.com.
+
+## License
+Distributed under the `BSD 2-Clause License` License. See LICENSE for more information.
 
 That should cover the basics. Feel free to customize it further based on your specific requirements.
-Raise an issue with details if you run into or reach out to devwork8nikhil@gmail.com.
+Raise an issue with details if you run into
 Don't forget to star this repo if it helped you.
 
 Happy coding! 🚀
