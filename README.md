@@ -15,22 +15,25 @@ This Python automation project uses Selenium to log into Citrix Workspace automa
 git clone https://github.com/Nkhll/citirix-auto-login.git
 
 cd citrix-auto-login
+```
 
 2. **Install Selenium**
 ```sh
 pip install selenium
+```
 
 ## Configuration
 
 **Modify config.py**
 
-Fill your username, password, login_url, download_dir ex. (C:\\Users\\Username\\Downloads)
+Fill your username, password, login_url, download_dir ex. `(C:\\Users\\Username\\Downloads)`
 
 ## Usage
 
 **Run the startup script**
 ```sh
 python startup.py
+```
 
 ## Additional feature
 
@@ -41,7 +44,7 @@ After a successful compilation, it's recommended to generate a .exe file to avoi
 ```
 pip install pyinstaller
 pyinstaller --onefile startup.py
-
+```
 
 **Run the exe file**
 
