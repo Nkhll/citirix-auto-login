@@ -24,7 +24,7 @@ This Python automation project uses Selenium to log into Citrix Workspace automa
 
 **Modify config.py**
 
-    Fill your username, password, login_url, download_dir ex. `(C:\\Users\\Username\\Downloads)`
+    Fill your username, password, login_url, download_dir ex. (C:\\Users\\Username\\Downloads)
 
 ## Usage
 
@@ -38,11 +38,13 @@ This Python automation project uses Selenium to log into Citrix Workspace automa
 
 After a successful compilation, it's recommended to generate a .exe file to avoid running the script multiple times.
 
-    ```sh
+    ```
     pip install pyinstaller
     pyinstaller --onefile startup.py
 
-    **Run the exe file**
+
+**Run the exe file**
+
     Navigate to the /dist folder and use startup.exe for auto login.
 
 ## Contributing

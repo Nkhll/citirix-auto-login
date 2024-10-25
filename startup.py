@@ -6,10 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 import time
 import glob
-""" import config  # Import the config file """
-import config_local
-
-config = config_local
+import config  # Import the config file
 
 chrome_options = Options()
 driver = webdriver.Chrome()
@@ -38,16 +35,12 @@ desktop_access_button = WebDriverWait(driver, 100).until(EC.element_to_be_clicka
 time.sleep(0.2)
 desktop_access_button.click()
 
-""" time.sleep(20)
-desktop_access_button = driver.find_element(By.CLASS_NAME, 'wica')
-desktop_access_button.click() """
-
-time.sleep(12)
-authorized_access_button = driver.find_element(By.LINK_TEXT, 'OK')
+authorized_access_button = WebDriverWait(driver, 100).until(EC.element_to_be_clickable((By.LINK_TEXT, "OK")))
+time.sleep(0.2)
 authorized_access_button.click()
 
-time.sleep(15)
-download_desktop_button = driver.find_element(By.CLASS_NAME, 'storeapp-details-link')
+download_desktop_button = WebDriverWait(driver, 100).until(EC.element_to_be_clickable((By.CLASS_NAME, "storeapp-details-link")))
+time.sleep(0.2)
 download_desktop_button.click()
 
 time.sleep(12)
